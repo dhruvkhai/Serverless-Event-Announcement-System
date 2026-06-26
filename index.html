@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Event Announcement System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Upcoming Events</h1>
+
+        <div id="events"></div>
+
+        <hr>
+
+        <h2>Subscribe</h2>
+
+        <input type="email" id="email" placeholder="Enter Email">
+
+        <button onclick="subscribe()">
+            Subscribe
+        </button>
+
+        <hr>
+
+        <h2>Create Event</h2>
+
+        <input id="title" placeholder="Event Title">
+        <input id="date" placeholder="Date">
+        <input id="location" placeholder="Location">
+
+        <button onclick="createNewEvent()">
+            Create Event
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
